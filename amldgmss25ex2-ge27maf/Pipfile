@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "*"
+notebook = "*"
+scipy = "*"
+typeguard = "==2.13.3"
+torchtyping = "==0.1.5"
+torch = "*"
+torchvision = "*"
+numpy = "==1.26.4"
+seaborn = "*"
+scikit-learn = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
