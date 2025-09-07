@@ -79,7 +79,7 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-../amldgmss25ex2-ge27maf/.ipynb_checkpoints
+.ipynb_checkpoints
 
 # IPython
 profile_default/
@@ -314,3 +314,6 @@ $RECYCLE.BIN/
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+# Folders
+exam/
