@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+einops = "*"
+numpy = "<2.0"
+matplotlib = "*"
+notebook = "*"
+typeguard = "==2.13.3"
+torchtyping = "==0.1.4"
+tqdm = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
+python_full_version = "3.11.0"
