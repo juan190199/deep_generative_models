@@ -20,11 +20,10 @@ NormalizedNoiseLevel = TensorType["batch_size", torch.float32]
 
 
 def batch_broadcast(a: torch.Tensor, b: torch.Tensor) -> torch.Tensor:
-    """Make `a` broadcast along the batch dimension of `b`.
-
+    """
+    Make `a` broadcast along the batch dimension of `b`.
     We assume the batch dimension to be the first one.
     """
-
     assert a.ndim == 1
     return a.view(-1, *((1,) * (b.ndim - 1)))
 
@@ -145,7 +144,6 @@ class DDPM(nn.Module):
     """A denoising diffusion model as described in [1].
 
     References:
-
     [1] "Denoising Diffusion Probabilistic Models", Ho et al., https://arxiv.org/abs/2006.11239
     """
 
