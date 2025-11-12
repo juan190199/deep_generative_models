@@ -317,3 +317,14 @@ $RECYCLE.BIN/
 
 # Folders
 exam/
+
+# PyTorch checkpoints
+*.pth
+*.pt
+
+# Checkpoint directories
+checkpoints_improved_ddpm/
+checkpoints_ddpm/
+
+# Plots
+plots/
